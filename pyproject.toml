@@ -1,0 +1,11 @@
+[project]
+name = "openweathermap-mcp-server"
+version = "0.1.0"
+description = "A simple weather MCP server using Open Weather Map API"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp",
+    "httpx",
+    "python-dotenv",
+]
